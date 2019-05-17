@@ -1,2 +1,0 @@
-# gls
-Guided Learning Solution
