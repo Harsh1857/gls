@@ -1,0 +1,18 @@
+{
+	"steps": [{
+			"id": "1",
+			"content": "Tip on first div",
+			"selector": "#id_1",
+			"next": "2"
+		}, {
+			"id": "2",
+			"content": "Tip on second div",
+			"selector": ".myClass2",
+			"next": "3"
+		}, {
+			"id": "3",
+			"content": "Tip on third div.",
+			"selector": "//div[3]",
+			"next": null
+		}]	
+}

@@ -1,0 +1,24 @@
+{% load static %} 
+{% load jsonify %} 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GLS Fullstack Exercise</title>
+    <link rel="stylesheet" href="{% static 'player.css' %}">
+</head>
+<body>
+	<h1>GLS Fullstack Exercise</h1>
+	<div class="myClass1" id="id_1">First tip on me using id.</div>
+
+	<div class="myClass2">Second tip on me using class.</div>
+
+	<div class="myClass3">I am the 3rd div. 3rd tip on me using xpath.</div>
+
+    <script src="{% static 'player.js' %}" type="text/javascript"></script>
+    <script>
+        var data = {{ steps|jsonify }}
+        document.addEventListener('DOMContentLoaded', gls(data, 0))    
+    </script>
+</body>
+</html>
