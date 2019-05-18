@@ -1,0 +1,44 @@
+.myClass1 {
+    padding: 10px 20px;
+    border: 1px solid green;
+    margin-bottom: 50px;
+    position: relative;
+}
+.myClass2 {
+    padding: 50px;
+    border: 1px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+.myClass3 {
+    padding: 50px;
+    border: 1px solid blue;
+    display: inline-block;
+    position: absolute;
+    left: 0px; 
+    bottom: 0px;
+}
+.pop-up {
+    position: absolute;
+    background-color: #000000ed;
+    font-size: 16px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    text-align: right;
+    color: #fff;
+    box-shadow: 14px 12px 9px 16px rgba(0,0,0,0.75);
+}
+.pop-up p {
+    margin: 0
+}
+.pop-up button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    bottom: 0;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid #ffffffc7;
+}
